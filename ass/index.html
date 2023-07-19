@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <!--  Create a button with the onclick method 'modalOpen()' -->
+  <button class="button" onclick="modalOpen()">Click and click!</button>
+
+  <!--  Create a Div for your modal, include the id 'welcomeModal', and any content you wish to include -->
+  <div id="welcomeModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); background-color:white; padding:20px; border:2px solid black;">
+    <!--Click the new page-->
+    <div id="box" onclick="myclick()">
+      <p id="p1">Hello!Click me more!</p>
+    </div>
+
+    <!--  Add a button inside the div for the close button and add the onclick method 'modalClose()' -->
+    <button onclick="modalClose()">Close Modal</button>
+  </div>
+
+
+
+  <div class="top">
+    <ul>
+    <li>
+        <a href="me.html">Main</a>
+        <ul>
+            <li><a href="me.html">Me</a></li>
+        </ul>
+    </li>   
+     <li><a href="sourcelog.html">Sourcelog</a></li>
+     <li><a href="sitemap.html">sitemap</a></li>
+     <li><a href="feedback.html"><b>feedback</b></a></li>
+     <li><a href="imagemap.html">imagemap</a></li>
+     <li><a href="photogallery.html">photogallery</a></li>
+       </ul>
+   
+    </div>
+
+    <!-- New style -->
+    <div class="container">
+      <nav>
+          <a href="index.html">Main</a>
+          <a href="me.html">Me</a>
+          <a href="sourcelog.html">Sourcelog</a>
+          <a href="sitemap.html">sitemap</a>
+          <a href="feedback.html">feedback</a>
+          <a href="imagemap.html">imagemap</a>
+          <a href="photogallery.html">photogallery</a>
+          <a href="original.html">original</a>
+          <a href="aboutmysite.html">aboutmysite</a>
+          
+          
+          <div class="animation start-home"></div>
+      </nav>
+  </div>
+
+  <div class="backgroundpicture">
+      <img src="starrynight.jpg" alt="">
+
+  </div>
+
+  <div class="side"></div>
+
+  <div class="introduction">
+      <p>
+          Hi, I'm Zhilin. Welcome to my website. In my website, I want to show me myself, including some hobbies, career and also my ability of web design.
+      </p>
+      <img src="waving.jpg" alt="">
+  </div>
+
+  <div class="side"></div>
+
+
+  <!-- Place <div> tag where you want the feed to appear -->
+  <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div><!-- The Javascript can be moved to the end of the html page before the </body> tag --><script type="text/javascript">
+  /* curator-feed-default-feed-layout */
+  (function(){
+  var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+  i.src="https://cdn.curator.io/published/192b27f1-ee3a-4764-bff0-5a86eb0ade5c.js";
+  e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+  })();
+  </script>
+
+  <div class="side"></div>
+
+  <div class="bottom">
+      <p>Contact me</p>
+      <div class="social-buttons">
+          <a href="https://twitter.com/DOGE41265722"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/magicdoge98/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.youtube.com/channel/UClSeW4LyakWdTG4BQB1_bKQ"><i class="fab fa-youtube"></i></a>
+          <a href="https://www.linkedin.com/in/%E6%99%BA%E9%9C%96-%E5%BC%A0-86692b20b/"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+
+  </div>
+
+    
+
+
+</body>
+</html>
+
